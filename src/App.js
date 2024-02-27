@@ -5,7 +5,7 @@ import Product_list from './components/Product_list';
 
 function App() {
   return (
-    <div className="App" style={{}}>
+    <div className="App">
       <Header/>
       <Product_list/>
     </div>

@@ -6,7 +6,7 @@ function Product_list() {
         {products.map(product=>
       <div className="wrapper">
   <div className="product-img">
-    <img src={product.image} height={400} width={250} />
+    <img src={product.image} height={450} width={250} />
   </div>
   <div className="product-info">
     <div className="product-text">
