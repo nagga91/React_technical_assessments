@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -29,7 +29,7 @@ export const products = [
     category: "men's clothing",
     image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
     rating: { rate: 4.7, count: 500 },
-  },
+  }
   {
     id: 4,
     title: "Mens Casual Slim Fit",

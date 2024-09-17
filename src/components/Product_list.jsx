@@ -1,12 +1,12 @@
 import React from 'react'
-import { products } from './Data'
+
 function Product_list() {
   return (
-    <div style={{display:"flex",flexWrap:"wrap"}}> 
+    <div style={{display:flex,flexWrap:"wrap"}}> 
         {products.map(product=>
       <div className="wrapper">
   <div className="product-img">
-    <img src={product.image} height={450} width={250} />
+    <img src={product.image} height={450} width={250} 
   </div>
   <div className="product-info">
     <div className="product-text">

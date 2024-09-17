@@ -1,13 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
 import Product_list from './components/Product_list';
+import { useState } from 'react';
 
 function App() {
+  const [dark,setdark]=useState(true)
+  
   return (
-    <div className="App">
-      <Header/>
-      <Product_list/>
+    <div class="App">
+      <Header dark="true"/>
+      <Product_list></Product_list>
     </div>
   );
 }
